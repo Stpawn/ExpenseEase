@@ -22,7 +22,7 @@ const io = socketIo(server, {
     }
 });
 
-mongoose.connect('mongodb+srv://pawankumar:pawan@cluster0.mecm0.mongodb.net/', {
+mongoose.connect('', {
     // useNewUrlParser: true,
     // useUnifiedTopology: true,
 }).then(() => {
